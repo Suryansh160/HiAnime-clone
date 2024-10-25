@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+header{
+    height: 8vh;
+    background-color: transparent;
+    padding-left: 1rem;
+    display: flex;
+}
+.container1{
+    display: flex;
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.firstDiv{
+    padding-top: 3.5vh;
+    /* padding-left: -90vw; */
+}
+.logo{
+    padding-top: 2.5vh;
+    width: 11rem;
+    height: 6vh;
+}
+.logo img{
+    height: 5.5vh;
+    width: 10.5rem;
+}
+.search{
+    padding-top: 2vh;
+    display: flex;
+}
+.filter{
+    height: 3vh;
+    color: white;
+    background-color: black;
+    width: 2.5rem;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    border-radius: 4px;
+    margin-top: 1.5vh;
+    margin-left: -3rem;
+}
+.search input{
+    width: 21rem;
+    height: 5vh;
+    padding-left: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+.container2{
+    display: flex;
+    margin-left: 1.5rem;
+}
+.circle{
+    height: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5vh;
+    margin-top: 2.5vh;
+    border-radius: 50%;
+    
+    margin-right: 0.2rem;
+}
+.discord{
+    background-color: #6F85D5;
+}
+.telegram{
+    background-color: #0088CC;
+}
+.reddit{
+    background-color: #FF3C1F;
+}
+.twitter{
+    background-color: #1D9BF0;
+}
+.box{
+    width: 7rem;
+    padding-top: 2vh;
+}
+.par{
+    font-weight: 400;
+    font-size: small;
+    color: white;
+}
+.container3{
+    display: flex;
+    margin-left: 2rem;
+}
+.button{
+    margin-left: 12rem;
+    margin-top: 1.5vh;
+}
+.button button{
+    width: 4.5rem;
+    height: 6.5vh;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #FFBADE;
+}
+
+.heroimg {
+    height: 85vh;
+    margin-top: -8vh;
+    width: 66rem;
+    margin-left: 30rem;
+    background-color: #201F31; /* Background color for blending */
+    background-image: url("img/heroimg.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 180px 0 100px -80px #201F31,   /* Left side inner shadow */
+                inset -150px 0 100px -80px #201F31,  /* Right side inner shadow */
+                inset 0 150px 100px -80px #201F31,   /* Bottom side inner shadow */
+                inset 0 -150px 100px -80px #201F31;  /* Top side inner shadow */
+}
+
+.heroimg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.outermost{
+    background-color: rgb(32,31,49);
+    height: 200vh;
+}
+.heroSection{
+margin-top: -61vh;
+height: 56vh;
+background-color: transparent;
+width: 51rem;
+margin-left: 2.5rem;
+}
+.wright{
+    font-weight: 700;
+    font-size: xxx-large;
+    color: white;
+
+}
+.no{
+    font-size: x-small;
+    font-weight: 600;
+    color: black;
+}
+.hi{
+    height: 2.5vh;
+     width: 1rem;
+      background-color: rgba(255, 255, 255, 0.182);
+      display: flex;
+justify-content: center;
+align-items: center;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px ;
+
+}
+.cc{
+background-color: #B0E3AF;
+width: 1.75rem;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 2.5vh;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px ;
+margin-right: 1px;
+}
+.mic{
+    background-color: #B9E7FF;
+    width: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5vh;
+    margin-right: 1px;
+}
+.out{
+    display: flex;
+}
+.icons{
+    display: flex;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    justify-content: space-between;
+    width: 25rem;
+}
+.buttons button{
+    height: 6vh;
+    width: 9rem;
+    border-radius: 25px;
+    border: none;
+    background-color: #FFBADE;
+    font-weight: 300;
+    font-size: medium;
+    margin-right: 1rem;
+}
+.trending{
+    padding-left: 1rem;
+    margin-top: 10vh;
+    height: 40vh;
+    background-color: #201F31;
+}
+.pages{
+    height: 45vh;
+    display: flex;
+}
+ .img1{
+    height: 40vh;
+    padding-right: 20px;
+ }
+ .img1 span{
+    transform: rotate(-90deg);
+    transform-origin: left bottom;
+    display: inline-block;
+    padding-top: 30vh;
+    font-weight: 500;
+    color: white;
+    margin-left: 1.25rem;
+ }
+ .img1 p{
+    margin-top: 1vh;
+    
+    font-size: large;
+    font-weight: 600;
+    color: #FFBADE;
+ }
+ .realImg{
+    margin-left: 1.5rem;
+    height: 36vh;
+    width: 12rem;
+    margin-top: -37vh;
+ }
+.realImg img{
+    height: 36vh;
+    width: 12rem;
+}
+.trendHov{
+    background-color: transparent;
+    margin-top: -13vh;
+    height: 36vh;
+}
+.img2{
+    height: 35vh;
+    opacity: 0;
+    margin-left: 3rem;
+    padding: 1rem;
+    width: 13rem;
+    border-radius: 10%;
+    background: transparent; /* Transparent background color */
+    backdrop-filter: blur(4px);
+    transition: opacity 0.5s;
+    transform: translateX(-50%);
+}
+.star{
+    display: flex;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+.img2:hover{
+    height: 35vh;
+    opacity: 1;
+    visibility: visible;
+    margin-left: 3rem;
+    padding: 1rem;
+    width: 13rem;
+    border-radius: 10%;
+    /* background: transparent; Transparent background color */
+    backdrop-filter: blur(4px);
+}
+.luffy{
+    height: 10vh;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.luffypic{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    background-color: #0088CC;
+    background-image: url(img/luffy.jpg);
+    background-size: cover;
+}
