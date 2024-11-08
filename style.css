@@ -293,7 +293,7 @@ margin-right: 1px;
 }
 .chart{
     height: 88vh;
-    width: 70rem; 
+    width: 68rem; 
     display: flex;
     background-color: transparent;
     margin-left: 1rem;
@@ -332,4 +332,36 @@ margin-right: 1px;
     height: 14vh;
     width: 4rem;
     border-radius: 10px;
+}
+.genre{
+    height: 50vh;
+    width: 20rem;
+    background-color: transparent;
+}
+.midsec{
+    display: flex;
+}
+.wall{
+    height: 50vh;
+    width: 18rem;
+    background-color: #4B4A59;
+    padding: 1rem;
+}
+.row1{
+    width: 18rem;
+    display: flex;
+    padding-bottom: 2vh;
+    justify-content: space-between;
+}
+#cutt{
+    margin-top: 2vh;
+}
+.cutt{
+    height: 5vh;
+    color: white;
+    width: 18rem;
+    border: none;
+    background-color: #373646;
+    margin-top: 4vh;
+    border-radius: 5px;
 }
