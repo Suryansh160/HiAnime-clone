@@ -10,6 +10,7 @@ header{
     background-color: transparent;
     padding-left: 1rem;
     display: flex;
+    position:  sticky;
 }
 .container1{
     display: flex;
@@ -19,7 +20,6 @@ header{
 }
 .firstDiv{
     padding-top: 3.5vh;
-    /* padding-left: -90vw; */
 }
 .logo{
     padding-top: 2.5vh;
@@ -132,7 +132,8 @@ header{
 
 .outermost{
     background-color: rgb(32,31,49);
-    height: 300vh;
+    height: 360vh;
+    width: 100rem;
 }
 .heroSection{
 margin-top: -61vh;
@@ -364,4 +365,179 @@ margin-right: 1px;
     background-color: #373646;
     margin-top: 4vh;
     border-radius: 5px;
+}
+.lastsec{
+    height: 70vh;
+    margin-left: 1rem;
+    width: 63rem;
+    padding-bottom: 2vh;
+    margin-top: 10vh;
+}
+.estsch{
+    height: 5vh;
+    color: #FFBADE;
+    font-size: 130%;
+    font-weight: 600;
+}
+.fri{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 10vh;
+    width: 8rem;
+    margin-right: 2rem;
+    background-color: #FFBADE;
+    border-radius: 10px;
+}
+.sat{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    height: 10vh;
+    width: 8rem;
+    margin-right: 3rem;
+    background-color: rgb(55,54,70);
+    border-radius: 10px;
+}
+.episode{
+    display: flex;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+.spart{
+    font-size: 90%;font-weight: 500;margin-right: 1rem;color: white;
+}
+.index:hover{
+    .spart{
+    color: #FFBADE;}
+}
+.epno{
+    color: white;font-size: small;margin-left: 34rem;
+    height: 4vh;
+    border-radius: 5px;
+    width: 6.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sno:hover{
+    .rsno{
+        color: white;
+    }
+    
+}
+.ani{
+    color: white; font-weight: 500;
+}
+.time{
+    color: rgb(114,113,121); padding-right: 2rem;
+}
+.episode:hover{
+    .time{
+        color: #FFBADE;
+    }
+    .epno{
+        background-color: #FFBADE;
+        color: black;
+    }
+    .fa-solid fa-play{
+        background-color: black;
+    }
+
+}
+.top10{
+    height: 80vh;
+    width: 20rem;
+    background-color: transparent;
+    margin-top: -95vh;
+    margin-left: 69rem;
+    
+}
+.today{
+    height: 4vh;
+display: flex;
+margin-left: 7rem;
+justify-content: space-between;
+    width: 9rem;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    margin-bottom: 2vh;
+}
+.set{
+    display: flex;
+    margin-bottom: 3vh;
+}
+.rtoday{
+    height: 4vh;
+    font-size: small;
+    width: 3rem;
+border-radius: 5px;
+    background-color: #FFBADE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.week{
+    font-size: small;
+    background-color: #373646;
+    color: white;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.month{
+    font-size: small;
+    background-color: #373646;
+    color: white;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px ;
+}
+.sno{
+    height: 13vh;
+    width: 20rem;
+    background-color: #2B2A3C;
+    display: flex;
+}
+.rsno{
+    height: 13vh;
+    width: 1rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    font-size: large;
+    color: #FFBADE;
+    font-weight: 600;
+}
+.hola{
+    height: 10vh;
+ margin-left: 1rem;
+ margin-top: 1.5vh;
+ border-radius: 5px;
+    width: 3rem;
+}
+.lstsec{
+    padding: 1rem;
+}
+footer{
+    margin: 1rem;
+    margin-top: 10vh;
+}
+.line1{
+    display: flex;
+}
+.duma{
+    width: 35rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.hah{
+    color: white;
 }
