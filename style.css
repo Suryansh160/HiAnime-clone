@@ -4,6 +4,8 @@
 }
 body{
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden; 
+        width: 100%;
 }
 header{
     height: 8vh;
@@ -11,6 +13,7 @@ header{
     padding-left: 1rem;
     display: flex;
     position:  sticky;
+    width: 100vw;
 }
 .container1{
     display: flex;
@@ -108,7 +111,7 @@ header{
 .heroimg {
     height: 85vh;
     margin-top: -8vh;
-    width: 66rem;
+    /* width: 66rem; */
     margin-left: 30rem;
     background-color: #201F31; /* Background color for blending */
     background-image: url("img/heroimg.jpg");
@@ -133,7 +136,7 @@ header{
 .outermost{
     background-color: rgb(32,31,49);
     height: 360vh;
-    width: 100rem;
+    width: 100vw;
 }
 .heroSection{
 margin-top: -61vh;
